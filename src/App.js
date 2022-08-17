@@ -11,6 +11,7 @@ function App() {
       <PersonCard firstName= "Raghad" lastName="Mohammed" age={17} hairColor="Black">
       <p>I'm a good programmer</p>
       </PersonCard>
+      <button onClick={ () => alert("This button has been clicked") }>Click here</button>
     </div>
   );
 }
